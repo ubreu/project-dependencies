@@ -3,6 +3,10 @@
   description = "A collection of flake templates";
   outputs = { self }: {
     templates = {
+      angular = {
+        path = ./angular;
+        description = "Angular template";
+      };
       nodejs = {
         path = ./nodejs;
         description = "NodeJS template";

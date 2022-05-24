@@ -7,5 +7,5 @@ nix flake init -t 'git+https://github.com/ubreu/project-dependencies?ref=main#ru
 # or
 nix flake init -t <file-path-repo>/project-dependencies#rust
 # or
-nix flake new -t <file-path-repo>/project-dependencies.git#rust ./my-project
+nix flake new -t <file-path-repo>/project-dependenciesrust ./my-project
 ```
