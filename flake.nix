@@ -7,6 +7,10 @@
         path = ./angular;
         description = "Angular template";
       };
+      gradle = {
+        path = ./gradle;
+        description = "Gradle template";
+      };
       nodejs = {
         path = ./nodejs;
         description = "NodeJS template";
