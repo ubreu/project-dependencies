@@ -3,7 +3,7 @@
 This project contains some project templates to help you start your Nix-based project.
 
 ```console
-nix flake init -t git+ssh://git@github.com:ubreu/project-dependencies.git#rust
+nix flake init -t 'git+https://github.com/ubreu/project-dependencies?ref=main#rust'
 # or
 nix flake init -t <file-path-repo>/project-dependencies#rust
 # or
