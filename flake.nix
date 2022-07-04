@@ -15,6 +15,10 @@
         path = ./nodejs;
         description = "NodeJS template";
       };
+      python = {
+        path = ./python;
+        description = "Python template";
+      };
       rust = {
         path = ./rust;
         description = "Rust template";
